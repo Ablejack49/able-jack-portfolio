@@ -6,8 +6,6 @@
     src: url('fonts/BodoniModa_18pt-Regular.ttf') format('truetype');
 }
 
-ill give you my html files as well.
-
 @font-face {
     font-family: 'MyriadPro-Regular';
     src: url('fonts/MYRIADPRO-REGULAR.otf') format('opentype');
@@ -18,7 +16,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font: 18px/1.5 'BodoniModa_18pt-Regular', serif;
+    font: 22px/1.5 'MYRIADPRO-REGULAR.otf', serif;
     color: #EDEDED;
     background: linear-gradient(180deg, #2e2e2e, #1a1a1a);
 }
