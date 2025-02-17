@@ -16,7 +16,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font: 22px/1.5 'MYRIADPRO-REGULAR.otf', serif;
+    font: 22px/1.5 'MyriadPro-Regular', sans-serif;
     color: #EDEDED;
     background: linear-gradient(180deg, #2e2e2e, #1a1a1a);
 }
@@ -34,7 +34,7 @@ body {
     font-family: 'MyriadPro-Regular', sans-serif;
     color: #EDEDED!important;
 }.nav-link {
-    font-size: 36px;
+    font-size: 26px;
     margin: 0 30px;
     transition: color 0.3s ease;
 }.nav-link:hover {
