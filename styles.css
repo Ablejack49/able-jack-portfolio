@@ -90,7 +90,6 @@ body {
     color: #EDEDED;
     padding: 50px;
     background: url('Images/Jobsite 1.jpg') no-repeat center center/cover;
-    /* Use shorthand for background properties */
     position: relative;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -101,19 +100,21 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    /* Use shorthand for top, left, bottom, right */
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     border-radius: 10px;
 }
 
-#hero img,
-#hero p {
+#hero img {
     position: relative;
     z-index: 2;
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 #hero p {
+    position: relative;
+    z-index: 2;
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 3px 3px 10px rgba(50, 50, 50, 0.8);
